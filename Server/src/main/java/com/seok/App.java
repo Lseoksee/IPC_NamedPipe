@@ -55,7 +55,9 @@ public class App {
         } else {
             System.out.println("클라이언트꺼 읽지 못함");
         }
-    
+        
+        
+        System.out.println("파이프 종료");
         Kernel32.INSTANCE.CloseHandle(handle);
     }
 }

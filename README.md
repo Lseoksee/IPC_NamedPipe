@@ -42,7 +42,8 @@ IPC 통신 NamedPipe 구현
 ### 서버 (`Java`)
 
 1. 자바 설치
-2. `App.java` 실행
+2. Maven 설치 & 종속성 설치
+3. `App.java` 실행
 
 ### 클라이언트 (`Python`)
 
